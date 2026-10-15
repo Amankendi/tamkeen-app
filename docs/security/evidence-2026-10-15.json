@@ -1,0 +1,121 @@
+{
+  "repository": "Amankendi/tamkeen-app",
+  "source_base": "f00230536a3af928f6a7355899384b837a9be1f3",
+  "settings_observed_at": "2026-10-15T13:52:36.003552+00:00",
+  "settings": {
+    "deploy_keys": {
+      "status": "BLOCKED",
+      "http": 403,
+      "reason": "GitHub API request unavailable with current integration"
+    },
+    "branch": {
+      "status": "PASS",
+      "data": {
+        "name": "main",
+        "sha": "f00230536a3af928f6a7355899384b837a9be1f3",
+        "protected": false,
+        "protection": {
+          "enabled": false,
+          "required_status_checks": {
+            "enforcement_level": "off",
+            "contexts": [],
+            "checks": []
+          }
+        }
+      }
+    },
+    "branch_protection": {
+      "status": "BLOCKED",
+      "http": 403,
+      "reason": "GitHub API request unavailable with current integration"
+    },
+    "rulesets": {
+      "status": "PASS",
+      "data": []
+    },
+    "actions_permissions": {
+      "status": "BLOCKED",
+      "http": 403,
+      "reason": "GitHub API request unavailable with current integration"
+    },
+    "workflow_permissions": {
+      "status": "BLOCKED",
+      "http": 403,
+      "reason": "GitHub API request unavailable with current integration"
+    },
+    "fork_approval": {
+      "status": "BLOCKED",
+      "http": 403,
+      "reason": "GitHub API request unavailable with current integration"
+    },
+    "dependabot_alerts": {
+      "status": "BLOCKED",
+      "http": 403,
+      "reason": "GitHub API request unavailable with current integration"
+    },
+    "secret_scanning_alerts": {
+      "status": "BLOCKED",
+      "http": 403,
+      "reason": "GitHub API request unavailable with current integration"
+    },
+    "code_scanning_alerts": {
+      "status": "BLOCKED",
+      "http": 403,
+      "reason": "GitHub API request unavailable with current integration"
+    }
+  },
+  "collaborator_role_counts": {
+    "admin": 1
+  },
+  "original_secret_scan": {
+    "repository": "Amankendi/tamkeen-app",
+    "scanner": "gitleaks 8.30.1",
+    "binary_sha256": "551f6fc83ea457d62a0d98237cbad105af8d557003051f41f3e7ca7b3f2470eb",
+    "scope": "all locally mirrored Git refs, including fetched PR refs",
+    "exit_code": 0,
+    "status": "PASS",
+    "findings": []
+  },
+  "proposed_secret_gate": {
+    "check": "gitleaks-history",
+    "version": "8.30.1",
+    "exit_code": 0,
+    "status": "PASS",
+    "candidate_count": 0,
+    "candidates": []
+  },
+  "local_sast": {
+    "check": "semgrep-local-rules",
+    "exit_code": 0,
+    "status": "PASS",
+    "candidate_count": 0,
+    "candidates": [],
+    "error_count": 0
+  },
+  "dependency_counts_before": null,
+  "dependency_counts_after": null,
+  "osv_affected_package_entries": 0,
+  "osv_unique_advisory_ids": [],
+  "recovery": {
+    "repository": "Amankendi/tamkeen-app",
+    "status": "PASS",
+    "scope": "local code bundle restoration only; no offsite/data/LFS/host-state claim",
+    "steps_exit_codes": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "sha256": "ec8e2ebe634b5710da2dd345e40f493d81de0f15aed1fa3eea4ac58b44b51197",
+    "bytes": 84425
+  },
+  "workflow_source": [
+    {
+      "workflow": "alkendi-security.yml",
+      "explicit_workflow_permissions": true,
+      "unpinned_actions": [],
+      "privileged_trigger": false,
+      "yaml_valid": true
+    }
+  ]
+}
